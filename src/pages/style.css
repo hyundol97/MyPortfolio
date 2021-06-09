@@ -1,0 +1,83 @@
+.Home-title {
+  background-color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+
+.Home-div1 {
+  background-color: #343a40;
+  padding-bottom: 7vh;
+  width: 100vw;
+}
+
+#Home-img1 {
+  height: 500px;
+  width: 500px;
+  float: left;
+  margin-left: 3vw;
+  margin-right: 5vw;
+}
+
+#Home-imgText1 {
+  padding-top: 35px;
+  color: #ffffff;
+  font-size: 70px;
+}
+#Home-imgText2 {
+  color: #00ffff;
+  font-size: 70px;
+}
+#Home-imgText3 {
+  color: #ffffff;
+  font-size: 70px;
+}
+
+.Home-div2 {
+  background-color: #ffffff;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+#Home-img2 {
+  padding-top: 50px;
+  height: 250px;
+  width: 250px;
+  float: right;
+  margin-right: 25%;
+  margin-bottom: 50px;
+}
+
+#Home-imgText4 {
+  font-size: 4em;
+  color: #343a40;
+  margin-left: 5%;
+  float: left;
+}
+
+#Home-imgText5 {
+  font-size: 4em;
+  color: #ff6666;
+  margin-left: 5%;
+  float: left;
+}
+
+#Home-imgText6 {
+  font-size: 4em;
+  color: #343a40;
+  margin-left: 5%;
+  float: left;
+}
+
+.Slide-form {
+  padding-top: 100px;
+  margin-left: 10%;
+  width: 70%;
+  margin-bottom: 60px;
+}
+
+#Slide-img {
+  padding-left: 10%;
+  width: 300px;
+}
