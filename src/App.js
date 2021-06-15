@@ -3,17 +3,15 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Link
 } from "react-router-dom";
 import Home from './pages/Home'
 import Profile from './pages/Profile'
 import Major from './pages/Major'
 import Interest from './pages/Interest'
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navbar, Nav } from 'react-bootstrap';
 
 import firebase from 'firebase'
-
 import "firebase/analytics";
 import "firebase/auth";
 import "firebase/firestore";
@@ -39,26 +37,13 @@ function App() {
   return (
     <Router>
       <div>
-        <div>
-          <Navbar bg="dark" variant="dark" className="Nav-bar">
-            <Nav className="Nav-item">
-              <Nav.Item>
-                <Nav.Link href="/home">Home</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link href="/profile">Profile</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link href="/major">Major</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
-                <Nav.Link href="/interest">Interest</Nav.Link>
-              </Nav.Item>
-            </Nav>
-          </Navbar>
-        </div>
 
-        <div className="Footer">ⓒ Hyun Seok Song</div>
+        <div className="Header">
+          <Link to="/" id="Header-item">Home</Link>
+          <Link to="/profile" id="Header-item">Profile</Link>
+          <Link to="/major" id="Header-item">Major</Link>
+          <Link to="/interest" id="Header-item">Interest</Link>
+        </div>
 
         <Switch>
           <Route path="/profile">
@@ -74,6 +59,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
+
       </div>
     </Router>
   );
