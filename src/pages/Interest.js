@@ -11,7 +11,7 @@ function Interest() {
                 <div className="Major-wrap">
                     <div className="text2">
                         <ReactPlayer url='https://www.youtube.com/watch?v=uSbgVuSqclY' controls style={{ margin: "0 auto" }} width="50vw" height="57.6vh" />
-                        <p id="Interest-imgText2">영상 편집</p>
+                        <p id="Interest-imgText1">영상 편집</p>
                         <ul>
                             <li id="Interest-imgText3">Premier Pro와 After Effect, PhotoShop을 사용하였습니다.</li>
                             <li id="Interest-imgText4">화면 전환, 자막, 색상 조정 효과 및 3D 카메라 효과를 부여하였습니다.</li>
@@ -41,6 +41,9 @@ function Interest() {
                     </div>
                 </div>
             </div>
+
+            <a href="#Interest-imgText1"><div className="Side-menu2"></div></a>
+            <a href="#Interest-imgText2"><div className="Side-menu3"></div></a>
 
             <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
             <style jsx>{ }</style>

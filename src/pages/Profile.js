@@ -162,6 +162,10 @@ function Profile() {
                 </div>
             </div>
 
+            <a href="#Profile-card1"><div className="Side-menu2"></div></a>
+            <a href="#Profile-slideImg"><div className="Side-menu3"></div></a>
+            <a href="#Profile-accorddion"><div className="Side-menu4"></div></a>
+
             <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
             <style jsx>{ }</style>
         </div >

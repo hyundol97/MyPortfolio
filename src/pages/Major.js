@@ -61,7 +61,7 @@ function Major() {
             <div className="Major-div3">
                 <div className="Major-wrap">
                     <div className="text2">
-                        <p id="Major-imgText2">HTML, CSS, JavaScript</p>
+                        <p id="Major-imgText99">HTML, CSS, JavaScript</p>
                         <ul>
                             <li id="Major-imgText3">웹 프로그래밍 강의를 수강하였고, w3school에서 이론에 대해 학습하였으며 Youtube에서 강의를 참고하여 실습하였습니다.</li>
                             <li id="Major-imgText4">Vue.js, React.js 기반의 SPA 프레임워크와 Node.js 및 Firebase Hosting을 활용하여 웹사이트를 작성하였습니다.</li>
@@ -103,6 +103,12 @@ function Major() {
                     </div>
                 </div>
             </div>
+
+            <a href="#Major-imgText1"><div className="Side-menu1"></div></a>
+            <a href="#Major-imgText2"><div className="Side-menu2"></div></a>
+            <a href="#Major-imgText99"><div className="Side-menu3"></div></a>
+            <a href="#Major-imgText6"><div className="Side-menu4"></div></a>
+            <a href="#Major-imgText11"><div className="Side-menu5"></div></a>
 
             <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
             <style jsx>{ }</style>

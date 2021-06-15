@@ -289,6 +289,14 @@
   text-align: center;
 }
 
+#Major-imgText99 {
+  padding-top: 100px;
+  color: #336699;
+  font-size: 80px;
+  word-break: keep-all;
+  text-align: center;
+}
+
 #Major-imgText3 {
   color: #00ddff;
   font-size: 30px;
@@ -383,7 +391,7 @@
 }
 
 a:link {
-  color: #00dd00;
+  color: #ffffdd;
   text-decoration: none;
 }
 a:visited {
@@ -405,7 +413,7 @@ a:hover {
 #Interest-imgText1 {
   padding-top: 50px;
   color: #336699;
-  font-size: 100px;
+  font-size: 80px;
   word-break: keep-all;
   text-align: center;
 }
@@ -442,4 +450,59 @@ a:hover {
   background-color: #eeffee;
   margin-top: 15vh;
   font-family: "Noto Sans KR", sans-serif;
+}
+
+.Side-menu1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  position: fixed;
+  right: 3vw;
+  top: 38vh;
+  background-color: #999999;
+  z-index: 100;
+}
+
+.Side-menu2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  position: fixed;
+  right: 3vw;
+  top: 45vh;
+  background-color: #999999;
+  z-index: 100;
+}
+
+.Side-menu3 {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  position: fixed;
+  right: 3vw;
+  top: 52vh;
+  background-color: #999999;
+  z-index: 100;
+}
+
+.Side-menu4 {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  position: fixed;
+  right: 3vw;
+  top: 59vh;
+  background-color: #999999;
+  z-index: 100;
+}
+
+.Side-menu5 {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  position: fixed;
+  right: 3vw;
+  top: 66vh;
+  background-color: #999999;
+  z-index: 100;
 }

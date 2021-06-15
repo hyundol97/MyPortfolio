@@ -63,6 +63,10 @@ function Home() {
                     </div>
                 </div>
 
+                <a href="#Home-img1"><div className="Side-menu2"></div></a>
+                <a href="#Home-img2"><div className="Side-menu3"></div></a>
+                <a href="#Home-imgText7"><div className="Side-menu4"></div></a>
+
                 <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
                 <style jsx>{ }</style>
             </div>
