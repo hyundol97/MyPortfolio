@@ -17,12 +17,12 @@ import "firebase/auth";
 import "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCyxv877bN-Gdbq1lIR6CcGXhcI4nY0tgE",
+  apiKey: "**",
   authDomain: "myfirstportfolio-7fa7a.firebaseapp.com",
   projectId: "myfirstportfolio-7fa7a",
   storageBucket: "myfirstportfolio-7fa7a.appspot.com",
   messagingSenderId: "367357031523",
-  appId: "1:367357031523:web:f59376c3bb812195253456",
+  appId: "**",
   measurementId: "G-CWMEBZBMBB"
 };
 
